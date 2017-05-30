@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	font-family: Lora;
+}
+.container {
+	padding: 0;
+}
+.top-panel {
+	height: 110px;
+}
+.navbar {
+	.container-fluid {
+		padding: 0px;
+	}
+}
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+.logo {
+	padding-top: 40px;
+}
+.navigation {
+	padding-top: 20px;
+	li {
+		margin-right: 10px;
+		a {
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 60px;
+			&:hover {
+				border-bottom: 2px solid #f34949;
+				color: #555555;
+				padding-bottom: 3px;
+			}
+		}
+	}
+}
+.heading {
+	height: 570px;
+	background-color: grey;
+	background-image: url('../img/layer-1.png');
+	border-bottom: 3px solid #f34949;
+}
+.heading-big {
+	color: #ffffff;
+	font-family: "Indie Flower";
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 60px;
+	margin-top: 250px;
+}
+.heading-small {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 60px;
+}
+.menu {
+	background-color: #f34949;
+	height: 75px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 80px;
+}
+.item {
+	height: 70px;
+	color: #555555;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.item-price {
+	text-align: right;
+}
+.item-descr {
+	color: #b7b7b7;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: italic;
+}
+.load-more {
+	height: 35px;
+	padding-top: 5px;
+	color: #b7b7b7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	border: 1px solid #b7b7b7;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+.featured-heading {
+	color: #3b3b3b;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+.featured-name {
+	color: #555555;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 60px;
+}
+.featured-price {
+	color: #555555;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 60px;
+}
+.gallery {
+	color: #3b3b3b;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+.featured-items {
+	margin-bottom: 50px;
+}
+.photo-collection {
+	margin-bottom: 50px;
+	.img-responsive {
+	float: left;
+	}
+}
+.footer {
+	background-color: #3b3b3b;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: #ffffff;
+	li {
+		list-style-type: none;
+		a {
+			color: #ffffff;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.photo-block {
+		display: none;
+	}
+}
